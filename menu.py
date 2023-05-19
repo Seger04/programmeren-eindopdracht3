@@ -1,3 +1,4 @@
+# Importing modules for the program
 from cgitb import text
 from functools import cache
 from tkinter import *
@@ -41,12 +42,14 @@ keren = tk.Entry(frame_thing_1 ,text="Keren dobbelen", bg='beige')
 button = tk.Button(frame_thing_1 ,text='Dobbelen')
 gegooid = tk.Label(frame_thing_1 ,text="", bg="beige")
 
+# Pack all the widgets
 hint.pack()
 hint2.pack()
 keren.pack()
 button.pack()
 gegooid.pack()
 
+# Fucntion for 'Dobbelen' button
 def dobbelen(event):
     gegooid["text"] = ""
     kerenD = keren.get()
@@ -82,6 +85,7 @@ def clickedproccessing():
         return "O"
 
 
+# Functions for all clicked events from buttons
 def clicked1():
     global turn
     if btn1["text"] == " ":  # For getting the text of a button
@@ -203,6 +207,7 @@ def win(player):
     btn9["text"] = " "
     
 
+# Creating buttons and placing them in grid layout
 btn1 = Button(boterkaasei, text=" ", bg="orange", fg="Black", width=3, height=1, font=('Helvetica', '20'), command=clicked1)
 btn1.grid(column=1, row=1)
 btn2 = Button(boterkaasei, text=" ", bg="orange", fg="Black", width=3, height=1, font=('Helvetica', '20'), command=clicked2)

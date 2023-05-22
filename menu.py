@@ -228,8 +228,11 @@ btn9 = Button(boterkaasei, text=" ", bg="orange", fg="Black", width=3, height=1,
 btn9.grid(column=3, row=3)
 
 flag = 0  # Flag used to apeend (1) in every turn is occurred
+
 # MAIN --------------------------------
+
 # Begin met frame 1
 show_thing_1()
-# Start the application
+
+# Start de applicatie
 window.mainloop()

@@ -1,7 +1,8 @@
 # programmeren-eindopdracht3
 
 ## Inleiding
-Dit project is gemaakt tijdens de programmeer lessen van ROC Aventus Apeldoorn. Dit project is gemaakt door: Seger, Jasper, Wesley
+Dit project is gemaakt tijdens de programmeer lessen van ROC Aventus Apeldoorn. Dit project is gemaakt door: Seger, Jasper, Wesley.
+Tijdens de lessen hebben we geleerd hoe we een programma moeten maken met de taal Python. Dit project is gemaakt voor het vak: Programmeren.
 
 ## Installatie
 Om dit project te installeren moet je de volgende stappen volgen:
